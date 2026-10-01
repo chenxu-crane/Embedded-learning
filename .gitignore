@@ -1,0 +1,12 @@
+# 编译产物不进版本库，需要时重新编译即可
+*.exe
+*.o
+*.obj
+*.out
+*.elf
+*.bin
+*.hex
+*.map
+build/
+Debug/
+Release/
