@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <limits.h>
+#include <stdlib.h>
+#include <time.h>
 int main(){
     // signed int a = 5;
     // unsigned short b = 10;
@@ -35,13 +37,88 @@ int main(){
     // printf("数学成绩为：%d\n", score2);
     // printf("英语成绩为：%d\n", score3);
 
-    int a=0;
-    scanf("%d", &a);
-    if(a%1==0){
-        printf("是整数");
-        if(a>=0){
-            printf("是正整数");}
-    }else{
-        printf("不是整数");}
+    // int a=0;
+    // scanf("%d", &a);
+    // if(a%1==0){
+    //     printf("是整数");
+    //     if(a>=0){
+    //         printf("是正整数");}
+    // }else{
+    //     printf("不是整数");}
+    // int i=0;
+    // while(i<=10){
+    //     printf("%d", i);
+    //     i++;
+    // }
+    // printf("\n");
+    // int a=0;
+    // while(a<=10){
+    //     printf("%d", a);
+    //     ++a;
+    // }
+
+    // int a=1234;
+    // int b=521;
+    // while(a%10!=0){
+    //     int c=a%10;
+    //     a=a/10;
+    //     printf("%d", c);
+    // }
+    // printf("\n");
+    // while(b%10!=0){
+    //     int d=b%10;
+    //     b=b/10;
+    //     printf("%d", d);
+    // }
+
+    // for(int i=0; i<10; i++){
+    //     printf("%d", i);
+    // }
+    // printf("\n");
+    // for(int i=0; i<10; ++i){
+    //     printf("%d", i);
+    // }
+
+    // int a=0;
+    // int sum=0;
+    // for(a=1;a<=100;a++){
+    //     if(a%3==0){
+    //         sum+=a;
+    //     }
+    // }
+    // printf("%d", sum);
+
+    // int num=0;
+    // int sum=0;
+    // scanf("%d", &num);
+    // do{
+    //     num/=10;
+    //     sum++;
+    // }while(num!=0);
+    // printf("%d", sum)；
+
+    // int a=0;
+    // int i=0;
+    // int sum=0;
+    // for(a=100;a<=200;a++){
+    //     for(i=2;i<=a;i++){
+    //         if(a%i==0){
+    //             break;
+    //         }
+    //     }
+    //     if(i==a){
+    //         sum++;
+    //         printf("%d ", a);
+    //     }
+    // }
+    // printf("总共有%d个数", sum);
+
+    srand((unsigned int)time(NULL));
+    printf("%d\n",rand());
+    printf("%d\n",rand());
+    printf("%d\n",rand());
+    printf("%d\n",rand());
+    printf("%d\n",rand());
+    
     return 0;
 }
