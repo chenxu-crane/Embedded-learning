@@ -4,7 +4,7 @@
 #include <time.h>
 #include <string.h>
 #include <math.h>
-int main(){
+int main()
     // signed int a = 5;
     // unsigned short b = 10;
     // int c = UCHAR_MAX;
@@ -122,20 +122,22 @@ int main(){
     // printf("%d\n",rand());
     // printf("%d\n",rand());
     
-    char in[]={"abcdefghijklmnopqrstuvwxyz"};
-    char out[]={"##########################"};
-    int i=sizeof(in);
-    int o=sizeof(out);
-    int num=(sizeof(in)-2)/2;
-    for(int a=0; a<=num; a++)
-    {
-        out[a]=in[a];
-        out[sizeof(in)-a-2]=in[sizeof(in)-a-2];
-        printf("%s\n", out);
-    }
-    printf("%d\n", in[26]);
-    printf("%d\n", i);
-    printf("%d\n", o);
-    printf("%s\n", in);
+    // char in[]={"abcdefghijklmnopqrstuvwxyz"};
+    // char out[]={"##########################"};
+    // int i=sizeof(in);
+    // int o=sizeof(out);
+    // int num=(sizeof(in)-2)/2;
+    // for(int a=0; a<=num; a++)
+    // {
+    //     out[a]=in[a];
+    //     out[sizeof(in)-a-2]=in[sizeof(in)-a-2];
+    //     printf("%s\n", out);
+    // }
+    // printf("%d\n", in[26]);
+    // printf("%d\n", i);
+    // printf("%d\n", o);
+
+{
+    int a=0;
     return 0;
 }
