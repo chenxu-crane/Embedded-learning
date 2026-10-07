@@ -4,6 +4,15 @@
 #include <time.h>
 #include <string.h>
 #include <math.h>
+
+void set_arr(int arr2[], int size){
+    for(int i=0; i<size; i++){
+        arr2[i] = -1;
+    }
+}
+
+
+
 int main()
     // signed int a = 5;
     // unsigned short b = 10;
@@ -138,6 +147,12 @@ int main()
     // printf("%d\n", o);
 
 {
-    int a=0;
+    int arr[10];
+    set_arr(arr, 10);
+    for(int i=0; i<10; i++){
+        printf("%d ", arr[i]);
+    }
+    
+    printf("\n");
     return 0;
 }
